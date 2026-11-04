@@ -1,29 +1,68 @@
+
 <!doctype html>
 <html lang="pl">
 <head>
-  <link rel="stylesheet" href="styles.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Student IT Knowledge Base</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
   <header>
     <h1>Student IT Knowledge Base</h1>
-  </header>
-  <main>
     <p>Ściągi z przedmiotów informatycznych.</p>
-    <p class="info-note">
-  Polecenie rm usuwa pliki bez użycia kosza.
-  Przed wykonaniem sprawdź bieżący katalog.
-</p>
-<ul class="topic-list">
-    <li><strong>UKOS</strong> – terminal Bash</li>
-    <li><strong>WARP</strong> – Git i GitHub</li>
-    <li><strong>PRG1</strong> – narzędzia .NET</li>
-</ul>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="pages/bash.html">UKOS</a></li>
+      <li><a href="pages/git.html">WARP</a></li>
+      <li><a href="pages/prg1.html">PRG1</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section>
+      <h2>Przedmioty</h2>
+      <ul class="topic-list">
+        <li><strong>UKOS</strong> – terminal Bash</li>
+        <li><strong>WARP</strong> – Git i GitHub</li>
+        <li><strong>PRG1</strong> – narzędzia .NET</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Jak korzystać</h2>
+      <ol>
+        <li>Wybierz interesujący Cię przedmiot.</li>
+        <li>Kliknij odpowiedni link w menu nawigacyjnym.</li>
+        <li>Zapoznaj się z materiałami i dokumentacją.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Dokumentacja</h2>
+      <ul>
+        <li>
+          <a href="https://developer.mozilla.org/pl/docs/Web/HTML" target="_blank">
+            MDN HTML
+          </a>
+        </li>
+        <li>
+          <a href="https://developer.mozilla.org/pl/docs/Web/CSS" target="_blank">
+            MDN CSS
+          </a>
+        </li>
+      </ul>
+    </section>
+
   </main>
+
   <footer>
-    <p>Materiały edukacyjne</p>
+    <p>Materiały edukacyjne – projekt edukacyjny.</p>
   </footer>
+
 </body>
 </html>
